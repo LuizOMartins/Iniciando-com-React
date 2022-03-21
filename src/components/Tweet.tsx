@@ -3,8 +3,7 @@ type TweetProps ={
 }
 
 export function Tweet( props: TweetProps){
-
-     
+ 
     return (
         <div>{props.text}</div>
     );
